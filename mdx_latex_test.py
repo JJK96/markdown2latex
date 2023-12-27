@@ -296,3 +296,7 @@ class TestImgConvert:
         out = converter.convert(self.intext)
         print(out)
         assert out == self.exp1
+
+if __name__ == "__main__":
+    import unittest
+    unittest.main()
